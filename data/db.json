@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Backlog",
+    "cards": [
+      {
+        "id": "b603230a-8469-407f-9b34-f8d0671b0b61",
+        "priority": 0,
+        "title": "Company website redesign.",
+        "chat": 1,
+        "attachment": 2,
+        "assignees": [
+          { "avatar": "https://randomuser.me/api/portraits/men/75.jpg" },
+          { "avatar": "https://randomuser.me/api/portraits/men/67.jpg" }
+        ]
+      },
+      {
+        "id": "d3f2711e-a83a-4008-ae89-2ac80fa5746b",
+        "priority": 2,
+        "title": "Mobile app login process prototype.",
+        "chat": 10,
+        "attachment": 4,
+        "assignees": [
+          { "avatar": "https://randomuser.me/api/portraits/men/67.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "In Progress",
+    "cards": [
+      {
+        "id": "6760f74b-5bea-4db6-837c-fd5e01832dd8",
+        "priority": 1,
+        "title": "Research and strategy for upcoming project.",
+        "chat": 0,
+        "attachment": 3,
+        "assignees": [
+          { "avatar": "https://randomuser.me/api/portraits/men/79.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "In Review",
+    "cards": [
+      {
+        "id": "79db8ea5-9c81-4d34-8ec8-57260fee93ff",
+        "priority": 2,
+        "title": "Dashboard layout redesign.",
+        "chat": 13,
+        "attachment": 2,
+        "assignees": [
+          { "avatar": "https://randomuser.me/api/portraits/men/75.jpg" }
+        ]
+      },
+      {
+        "id": "695b9776-2046-40ec-a30b-f2352f9678cb",
+        "priority": 0,
+        "title": "Social media posts",
+        "chat": 0,
+        "attachment": 0,
+        "assignees": [
+          { "avatar": "https://randomuser.me/api/portraits/men/68.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Completed",
+    "cards": [
+      {
+        "id": "0ad1f793-8cbf-4c5b-b502-46e44e686215",
+        "priority": 0,
+        "title": "Review client spec document and give feedback.",
+        "chat": 13,
+        "attachment": 2,
+        "assignees": [
+          { "avatar": "https://randomuser.me/api/portraits/men/75.jpg" }
+        ]
+      },
+      {
+        "id": "45137595-1a21-43de-9280-226120e19132",
+        "priority": 1,
+        "title": "Navigation designs",
+        "chat": 0,
+        "attachment": 0,
+        "assignees": [
+          { "avatar": "https://randomuser.me/api/portraits/men/68.jpg" }
+        ]
+      },
+      {
+        "id": "a01e68a5-5c81-485a-81ba-86304343d4e7",
+        "priority": 2,
+        "title": "Create style guide based on previous feedback",
+        "chat": 5,
+        "attachment": 2,
+        "assignees": [
+          { "avatar": "https://randomuser.me/api/portraits/men/64.jpg" }
+        ]
+      }
+    ]
+  }
+]
