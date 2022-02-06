@@ -1,11 +1,11 @@
-import CardContainer from "../components/CardContainer";
+import Board from "../components/Board";
 import Layout from "../components/Layout";
-import data from "../data/db.json";
+import { useStore } from "../context";
 
 export default function Home() {
   return (
     <Layout>
-      <CardContainer data={data} />
+      <Board />
     </Layout>
   );
 }

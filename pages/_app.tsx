@@ -1,8 +1,12 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import type { AppProps } from "next/app";
+import { ContextProvider } from "../context";
+import data from "../data/db.json";
+import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <ContextProvider initialValue={data}>
+      <Component {...pageProps} />
+    </ContextProvider>
+  );
 }
-
-export default MyApp
