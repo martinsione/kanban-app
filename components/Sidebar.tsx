@@ -45,8 +45,8 @@ export default function Sidebar() {
               }`}
             >
               <item.icon
-                className={`text-blue-500 mr-4
-                ${pathname === item.link && "text-white"}`}
+                className={`mr-4 
+                ${pathname === item.link ? "text-white" : "text-blue-500"}`}
               />
               <p>{item.name}</p>
             </a>
