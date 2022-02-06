@@ -18,7 +18,7 @@ export default function Sidebar() {
 
   return (
     <div className="flex flex-col h-full">
-      <p className="text-center text-2xl border-b border-gray-200 py-5">
+      <p className="h-20 text-center text-2xl border-b border-r border-gray-200 py-5">
         Dashboard
       </p>
 
