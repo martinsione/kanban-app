@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  *::-webkit-scrollbar {
+    width: 20px; /* Total width including `border-width` of scrollbar thumb */
+  }
+  *::-webkit-scrollbar-thumb {
+    @apply bg-slate-200 rounded-full;
+    border: 8px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+  }
+  *::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+}

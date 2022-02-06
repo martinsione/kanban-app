@@ -59,7 +59,10 @@ export default function Board() {
                         boardLength={board.cards.length}
                         boardName={board.name}
                       />
-                      <div className="flex flex-col gap-4">
+                      <div
+                        className="flex flex-col gap-4 overflow-x-hidden overflow-y-auto"
+                        style={{ maxHeight: "calc(100vh - 200px)" }}
+                      >
                         {board?.cards.map((item, i) => (
                           <Card key={item.id} data={item} index={i} />
                         ))}
