@@ -10,6 +10,7 @@ import { Card as CardProps } from "../types";
 interface Props {
   data: CardProps;
   index: number;
+  boardIndex: number;
 }
 
 function MenuPopover({ id, boardId }: { id: string; boardId: number }) {
@@ -42,7 +43,7 @@ function MenuPopover({ id, boardId }: { id: string; boardId: number }) {
   );
 }
 
-export default function Card({ data, index }: Props) {
+export default function Card({ data, index, boardIndex }: Props) {
   const priority = [
     { text: "Low Priority", className: "from-blue-600 to-blue-400" },
     { text: "Medium Priority", className: "from-green-600 to-green-400" },
@@ -65,7 +66,7 @@ export default function Card({ data, index }: Props) {
             >
               {priority[data.priority].text}
             </label>
-            <MenuPopover id={data.id} boardId={index} />
+            <MenuPopover id={data.id} boardId={boardIndex} />
           </div>
 
           <p className="text-gray-700">{data.title}</p>

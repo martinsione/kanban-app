@@ -64,7 +64,12 @@ export default function Board() {
                         style={{ maxHeight: "calc(100vh - 280px)" }}
                       >
                         {board?.cards.map((item, i) => (
-                          <Card key={item.id} data={item} index={i} />
+                          <Card
+                            key={item.id}
+                            data={item}
+                            index={i}
+                            boardIndex={boardIndex}
+                          />
                         ))}
                         {provided.placeholder}
                       </div>
